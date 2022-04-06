@@ -95,6 +95,10 @@ module Engine
           end
         end
 
+        def show_game_cert_limit?
+          false
+        end
+
         def setup_preround
           @phase_counter = 0
         end
